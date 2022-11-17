@@ -7,13 +7,19 @@ const Header = () => (
       <h1 className="blog-title">My Blog</h1>
       <ul className="nav-menu">
         <li>
-          <Link to="/">Home</Link>
+          <Link className="nav-link" to="/">
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/about">About</Link>
+          <Link className="nav-link" to="/about">
+            About
+          </Link>
         </li>
         <li>
-          <Link to="/contact">Contact</Link>
+          <Link className="nav-link" to="/contact">
+            Contact
+          </Link>
         </li>
       </ul>
     </div>
